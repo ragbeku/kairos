@@ -1,0 +1,16 @@
+{
+  "name": "Kairos Ecocleaning and Sanitation Enterprise",
+  "short_name": "Kairos",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0b8b49",
+  "icons": [
+    {
+      "src": "/assets/images/kairos/kairos-favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

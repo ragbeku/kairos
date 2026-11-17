@@ -1,0 +1,46 @@
+KAIROS WEBSITE — PRODUCTION SEO CONFIGURATION
+
+PRIMARY DOMAIN
+https://kairosecocleaning.com/
+
+CANONICAL URLS
+The following URLs are the preferred, absolute, self-referencing canonicals:
+- https://kairosecocleaning.com/
+- https://kairosecocleaning.com/about/
+- https://kairosecocleaning.com/services/
+- https://kairosecocleaning.com/who-we-serve/
+- https://kairosecocleaning.com/impact/
+- https://kairosecocleaning.com/contact/
+- https://kairosecocleaning.com/donation/
+
+Each page's <head> contains exactly one rel="canonical" pointing to its corresponding URL. Each page's og:url matches that same canonical. Open Graph and X/Twitter preview images use the absolute URL:
+https://kairosecocleaning.com/assets/images/kairos/kairos-social-preview.webp
+
+SITEMAP AND ROBOTS
+- Production sitemap: https://kairosecocleaning.com/sitemap.xml
+- robots.txt references the absolute sitemap URL and allows normal crawling.
+- sitemap.xml contains only canonical, indexable pages and uses fully-qualified HTTPS URLs.
+- The legacy /projects/ path redirects to /impact/ and is not listed as an independent indexable page.
+- 404.html is marked noindex, follow and is not included in the sitemap.
+
+GOOGLE SEARCH GUIDANCE APPLIED
+1. Each indexable page has one absolute, self-referential canonical URL in the HTML source.
+2. Canonical URLs and sitemap <loc> URLs match exactly.
+3. Internal navigation uses the preferred directory URLs with trailing slashes.
+4. Legacy and duplicate paths are permanently redirected where the static host supports the included _redirects rules.
+5. robots.txt does not block the site's HTML, CSS, JavaScript or local images.
+6. Page titles and descriptions are unique and relevant to each page.
+7. Open Graph metadata, structured data and image previews use absolute URLs on the primary domain.
+
+HOST CONFIGURATION STILL REQUIRED
+The code package cannot configure DNS, TLS certificates, web-server virtual hosts or Google Search Console on your behalf.
+- Set kairosecocleaning.com as the primary hostname.
+- Enable HTTPS.
+- Permanently redirect http://kairosecocleaning.com/ and https://www.kairosecocleaning.com/ to https://kairosecocleaning.com/.
+- For Apache hosting, .htaccess is included. For Cloudflare Pages/static hosting, configure the equivalent www-to-root and HTTP-to-HTTPS redirect rules in the hosting dashboard.
+- Once live, open /robots.txt and /sitemap.xml in a browser, then verify the domain property and submit the sitemap in Google Search Console.
+
+IMPORTANT
+The domain has been set to the exact spelling supplied by the user. A live DNS/SSL response could not be confirmed from the current environment (the first direct fetch returned a gateway error), so verify DNS and HTTPS after deployment.
+
+Google does not guarantee first-page rankings. Canonical tags and sitemaps help search engines understand preferred URLs and discover pages, but rankings depend on relevance, usefulness, crawl/index decisions, competition and other signals.

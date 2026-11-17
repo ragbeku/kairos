@@ -1,0 +1,18 @@
+KAIROS WEBSITE IMAGE SOURCES
+
+All visible photographs on the website are stored locally in assets/images/kairos/ and are supplied by Kairos or supplied directly by the user for this website.
+
+Local Kairos/user-supplied images:
+- kairos-logo.webp and kairos-favicon.png — Kairos logo and brand artwork.
+- kairos-team.webp — Kairos team members.
+- kairos-collection-work.webp — Kairos collection/site work.
+- kairos-community-meeting.webp — Kairos community/partner meeting.
+- kairos-partners.webp — Kairos meeting with partners.
+- kairos-us-correspondent.webp — portrait supplied for Praise Agbe, Director of strategic partnership, USA.
+- kairos-proposed-waste-truck.webp — truck photograph supplied for the fundraising proposal to acquire a waste disposal truck.
+- kairos-emblem-watermark.webp — transparent emblem crop created from the supplied Kairos logo for subtle decorative use.
+- kairos-social-preview.webp — share-preview composition created from the supplied Kairos logo and proposed truck photograph.
+
+No Unsplash, Pexels, IWMI or other third-party stock photographs are embedded in the website. For service areas where Kairos has not supplied a matching photograph (for example, compost products or public toilet management), the website uses a brand-coloured icon illustration rather than an unrelated stock photograph.
+
+The Praise Agbe portrait and proposed truck photograph have been resized/optimised for web delivery. The person's appearance and the truck itself have not been intentionally altered; the proposed vehicle is identified as a fundraising target, not as a vehicle currently owned by Kairos.
